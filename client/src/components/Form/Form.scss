@@ -1,0 +1,22 @@
+.input-form {
+  position: relative;
+  z-index: 300;
+  padding: 10px 0 0;
+
+  form {
+    display: flex;
+  }
+
+  input {
+    width: 100%;
+    padding: 5px;
+    padding-bottom: 40px;
+    margin-right: 10px;
+    font-size: 20px;
+    border: 1px solid #bcbcbc;
+  }
+
+  button {
+    width: 25%;
+  }
+}

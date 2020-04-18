@@ -1,0 +1,2 @@
+export const SEND_MESSAGE = 'SEND_MESSAGE';
+export const REGISTER_USER = 'REGISTER_USER';
