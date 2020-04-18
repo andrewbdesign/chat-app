@@ -26,7 +26,7 @@ This will install the necessary packages for frontend.
 
 ### `npm run server`
 
-Runs the server on port 3000.
+Runs the server on [http://localhost:5000](http://localhost:5000).
 
 ### `npm run client`
 
