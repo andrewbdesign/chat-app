@@ -1,32 +1,34 @@
-# Drum Pad
-Demo: [https://drumpad-andrewb.netlify.com](https://drumpad-andrewb.netlify.com)
+# Chat App
+Demo: [https://chatapp-andrewb.herokuapp.com/](https://chatapp-andrewb.herokuapp.com/)
 
 ![](images/screenshot.png)
+![](images/screenshot2.png)
 
 # Rules
 
-Play a sound with keyboard or with mouse.
+Enter username.
 
 # Background
-This is Day 6/100 of my #100DaysOfCode challenge on Twitter: [@andrewbdesign](https://twitter.com/andrewbdesign)
+This is Day 7/100 of my #100DaysOfCode challenge on Twitter: [@andrewbdesign](https://twitter.com/andrewbdesign)
 
-My focus was to build something for desktop. Haven't done any responsive designs to it. Feel free to Submit PRs. 
-
-# Background sound credits
-Found the drum audio files from [here](https://soundpacks.com/free-sound-packs/roland-mc-505-808-kit/)
+Built this with socket.io, nodejs, and react.
 
 # Local dev setup
 In the project directory, you can run:
 
 ### `npm install`
 
-This will install the necessary packages.
+This will install the necessary packages for the nodejs server.
 
-### `npm start`
+### `cd client && npm install`
 
-Runs the app in the development mode.<br />
+This will install the necessary packages for frontend.
+
+### `npm run server`
+
+Runs the server on port 3000.
+
+### `npm run client`
+
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
